@@ -1,0 +1,17 @@
+
+public class AnimaDriver{
+  
+  public static void printSound(Animal a){
+    
+    System.out.println(a.makeSound());
+  }
+  
+  public static void main(String [] args){
+    Dog d1 = new Dog(&quot;bark&quot;);
+    Cat c1 = new Cat(&quot;meow&quot;);
+    Animal a1 = new Animal(&quot;Animal do not make sound&quot;);
+    printSound(a1);
+    printSound(c1);
+    printSound(d1);
+  }
+}

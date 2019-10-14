@@ -1,0 +1,21 @@
+public class TestCars{
+  public static void printCarDetail(Car c){
+    System.out.println(&quot;Year: &quot;+ c.getYear());
+    System.out.println(&quot;Total Number of Cars: &quot;+ c.getObjectCount());
+    
+  }
+  public static void main(String [] args){
+    System.out.println(&quot;Total Number of Cars: &quot;+
+                       Car.getObjectCount());
+    System.out.println(&quot;==============================&quot;);
+    Car c1 = new Car(2000);
+    printCarDetail(c1);
+    Car c2 = new Car(2006);
+    printCarDetail(c2);
+    Car c3 = new Car(2002);
+    printCarDetail(c3);
+    System.out.println(&quot;==============================&quot;);
+    System.out.println(&quot;Total Number of Cars: &quot;+
+                       Car.getObjectCount());
+  }
+}

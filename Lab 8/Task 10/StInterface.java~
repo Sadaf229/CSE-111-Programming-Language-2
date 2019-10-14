@@ -1,0 +1,6 @@
+interface StInterface{
+  setName();
+  setID();
+  getName();
+  getID();
+}

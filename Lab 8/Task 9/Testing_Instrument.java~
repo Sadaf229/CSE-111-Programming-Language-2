@@ -1,0 +1,7 @@
+public class Testing_Instrument{
+  public static void main(String[[]args){
+    Guitar g = new Guitar();
+    Keyboard g = new Keyboard();
+    Violin v = new Violin();
+  }
+  }
