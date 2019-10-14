@@ -1,0 +1,10 @@
+public class Task11{
+  public static void main(String[]args){
+    for(int col=0;col<=9;col++){
+      for(int row=0; row<=col*col;row+col){
+        System.out.print(row);
+      }
+      System.out.println();
+    }
+  }
+}

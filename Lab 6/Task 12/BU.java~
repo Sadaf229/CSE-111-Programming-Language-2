@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class BU{
+  public static void main(String[]args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please Input Your Full Name");
+    String name = sc.nextLine();
+    System.out.println("Please Input Your ID");
+    int id= sc.newInt();
+    for(int c=0;c<=name.length();c++){
+      
+    }
+  }
+}

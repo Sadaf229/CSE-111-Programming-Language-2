@@ -1,0 +1,4 @@
+public class SavingsAccount{
+  static double annualInterestRate = 7;
+  private savingsBalance ;
+}

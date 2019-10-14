@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+  public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    int i = sc.nextInt();
+    while(i>0){
+      do{int test = sc.nextInt();
+      }while(test>=1000000000);
+      
+      
+    }
+  }
+}

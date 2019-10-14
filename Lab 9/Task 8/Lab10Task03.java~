@@ -1,0 +1,6 @@
+class Lab10Task03{
+public static void main(String[] args){
+String a[]={&quot;40&quot;, &quot;50&quot;, &quot;60&quot;};
+// write your code here
+}
+}
