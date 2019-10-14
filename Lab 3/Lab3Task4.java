@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Lab3Task4{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    String sample=sc.nextLine();
+    String END="Z";
+    int end=END.codePointAt(0);
+    String START="A";
+    int start=START.codePointAt(0);
+    for(;start<=end;start++){
+      int repeat=0;
+      for(int count=0;count<sample.length();count++){
+        if(start==sample.codePointAt(count))
+        repeat+=1;
+      }
+      System.out.println((char)start+" which is "+start+" was found "+repeat+" times");
+    }
+  }
+}

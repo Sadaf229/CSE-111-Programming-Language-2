@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Lab2Task6{
+  public static void main (String[]args){
+    Scanner sc = new Scanner(System.in);
+    int []a=new int [15];
+    for(int i=0;i<a.length;i++){
+      int c=sc.nextInt();
+      a[c]++;
+    }
+    for(int i=0;i<a.length;i++){
+      System.out.println("The number "+i+" has been entered "+a[i]+" times");
+    }
+  }
+}z
